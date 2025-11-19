@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": "dell-xps-15",
+      "name": "Dell XPS 15 (2022)",
+      "nameAr": "ديل XPS 15 (2022)",
+      "tags": ["xps 15", "dell xps", "xps15"],
+      "priceEGP": 34900,
+      "image": "/images/4.png",
+      "gallery": ["/images/4.png", "/images/1.png", "/images/2.png", "/images/3.png"],
+      "shortDescAr": "معالج Intel Core i7، ذاكرة 16 جيجابايت، قرص SSD سعة 512 جيجابايت، شاشة 15.6 بوصة FHD — مناسب للمصممين والمبرمجين.",
+      "shortDescEn": "Intel Core i7 • 16GB RAM • 512GB SSD • 15.6\" FHD — ideal for creators and developers.",
+      "specs": [
+        { "key": "cpu", "labelAr": "المعالج", "labelEn": "Processor", "value": "Intel Core i7-11800H" },
+        { "key": "gpu", "labelAr": "الرسومات", "labelEn": "Graphics", "value": "NVIDIA GeForce RTX 3050" },
+        { "key": "ram", "labelAr": "الذاكرة", "labelEn": "RAM", "value": "16GB DDR4" },
+        { "key": "storage", "labelAr": "التخزين", "labelEn": "Storage", "value": "512GB NVMe PCIe Gen4 SSD" },
+        { "key": "display", "labelAr": "الشاشة", "labelEn": "Display", "value": "15.6\" FHD (1920x1080) IPS" }
+      ]
+    },
+    {
+      "id": "lenovo-legion-5-pro",
+      "name": "Lenovo Legion 5 Pro",
+      "nameAr": "لينوفو ليجون 5 برو",
+      "tags": ["legion 5", "legion 5 pro", "lenovo gaming"],
+      "priceEGP": 42900,
+      "image": "/images/5.png",
+      "gallery": ["/images/5.png", "/images/2.png", "/images/3.png", "/images/1.png"],
+      "shortDescAr": "لابتوب ألعاب بأداء قوي مع RTX 3060، شاشة 16\" QHD بتردد 165Hz لتجربة لعب سلسة.",
+      "shortDescEn": "RTX 3060 gaming laptop with 16\" QHD 165Hz display for smooth gameplay.",
+      "specs": [
+        { "key": "cpu", "labelAr": "المعالج", "labelEn": "Processor", "value": "AMD Ryzen 7 5800H" },
+        { "key": "gpu", "labelAr": "الرسومات", "labelEn": "Graphics", "value": "NVIDIA GeForce RTX 3060" },
+        { "key": "ram", "labelAr": "الذاكرة", "labelEn": "RAM", "value": "16GB DDR4" },
+        { "key": "storage", "labelAr": "التخزين", "labelEn": "Storage", "value": "1TB NVMe SSD" },
+        { "key": "display", "labelAr": "الشاشة", "labelEn": "Display", "value": "16\" QHD (2560x1600) 165Hz" }
+      ]
+    },
+    {
+      "id": "macbook-air-m1",
+      "name": "MacBook Air M1",
+      "nameAr": "ماك بوك إير M1",
+      "tags": ["macbook air", "macbook m1", "apple m1"],
+      "priceEGP": 25900,
+      "image": "/images/6.png",
+      "gallery": ["/images/6.png", "/images/3.png", "/images/1.png", "/images/4.png"],
+      "shortDescAr": "خفيف وهادئ مع شريحة Apple M1 وبطارية طويلة — مثالي للطلاب والعمل المتنقل.",
+      "shortDescEn": "Lightweight and silent with Apple M1 and long battery life — perfect for students and mobile work.",
+      "specs": [
+        { "key": "cpu", "labelAr": "المعالج", "labelEn": "Processor", "value": "Apple M1" },
+        { "key": "ram", "labelAr": "الذاكرة", "labelEn": "RAM", "value": "8GB Unified Memory" },
+        { "key": "storage", "labelAr": "التخزين", "labelEn": "Storage", "value": "256GB SSD" },
+        { "key": "display", "labelAr": "الشاشة", "labelEn": "Display", "value": "13.3\" Retina Display" }
+      ]
+    },
+    {
+      "id": "hp-spectre-x360",
+      "name": "HP Spectre x360",
+      "nameAr": "اتش بي سبيكتر x360",
+      "tags": ["spectre", "spectre x360", "hp x360"],
+      "priceEGP": 28900,
+      "image": "/images/7.png",
+      "gallery": ["/images/7.png", "/images/1.png", "/images/2.png", "/images/5.png"],
+      "shortDescAr": "جهاز 2×1 قابل للتحويل مع شاشة لمس OLED، مناسب للإبداع والعمل الإنتاجي.",
+      "shortDescEn": "Premium 2-in-1 convertible with OLED touch display, great for creativity and productivity.",
+      "specs": [
+        { "key": "cpu", "labelAr": "المعالج", "labelEn": "Processor", "value": "Intel Core i7 (11th Gen)" },
+        { "key": "gpu", "labelAr": "الرسومات", "labelEn": "Graphics", "value": "Intel Iris Xe" },
+        { "key": "ram", "labelAr": "الذاكرة", "labelEn": "RAM", "value": "16GB LPDDR4x" },
+        { "key": "storage", "labelAr": "التخزين", "labelEn": "Storage", "value": "512GB SSD" },
+        { "key": "display", "labelAr": "الشاشة", "labelEn": "Display", "value": "13.5\" OLED Touch" }
+      ]
+    },
+    {
+      "id": "thinkpad-x1-carbon",
+      "name": "ThinkPad X1 Carbon",
+      "nameAr": "ثينك باد X1 كاربون",
+      "tags": ["x1 carbon", "thinkpad", "lenovo x1"],
+      "priceEGP": 31500,
+      "image": "/images/3.png",
+      "gallery": ["/images/3.png", "/images/1.png", "/images/4.png", "/images/6.png"],
+      "shortDescAr": "جهاز أعمال فائق الخفة مع جسم كربوني وموثوقية ThinkPad المعروفة.",
+      "shortDescEn": "Ultra-light business laptop with carbon body and classic ThinkPad reliability.",
+      "specs": [
+        { "key": "cpu", "labelAr": "المعالج", "labelEn": "Processor", "value": "Intel Core i7 (10th/11th Gen)" },
+        { "key": "ram", "labelAr": "الذاكرة", "labelEn": "RAM", "value": "16GB" },
+        { "key": "storage", "labelAr": "التخزين", "labelEn": "Storage", "value": "512GB SSD" },
+        { "key": "display", "labelAr": "الشاشة", "labelEn": "Display", "value": "14\" FHD / QHD" }
+      ]
+    },
+    {
+      "id": "acer-aspire-5",
+      "name": "Acer Aspire 5",
+      "nameAr": "ايسر أسباير 5",
+      "tags": ["aspire 5", "acer aspire", "acer 5"],
+      "priceEGP": 9900,
+      "image": "/images/2.png",
+      "gallery": ["/images/2.png", "/images/1.png", "/images/3.png", "/images/4.png"],
+      "shortDescAr": "خيار اقتصادي ممتاز للطلاب والعمل اليومي مع أداء ثابت وسعة تخزين سريعة.",
+      "shortDescEn": "Great budget option for students and daily work with solid performance and fast storage.",
+      "specs": [
+        { "key": "cpu", "labelAr": "المعالج", "labelEn": "Processor", "value": "Intel Core i5" },
+        { "key": "ram", "labelAr": "الذاكرة", "labelEn": "RAM", "value": "8GB DDR4" },
+        { "key": "storage", "labelAr": "التخزين", "labelEn": "Storage", "value": "512GB SSD" },
+        { "key": "display", "labelAr": "الشاشة", "labelEn": "Display", "value": "15.6\" FHD (1920x1080)" }
+      ]
+    }
+  ]
+}

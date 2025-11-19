@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "id": "greeting",
+      "patternsAr": ["مرحبا", "ازيك", "اهلا", "هلا", "السلام عليكم"],
+      "patternsEn": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responsesAr": [
+        "أهلاً 👋، أنا Nexon Assistant. كيف أقدر أساعدك في اختيار اللابتوب المناسب؟",
+        "مرحباً بك في نيكسون لابتوبس 👋، اسألني عن المواصفات أو الأسعار أو أفضل اختيار لاستخدامك."
+      ],
+      "responsesEn": [
+        "Hi 👋, I'm Nexon Assistant. How can I help you find the right laptop?",
+        "Welcome to Nexon Laptops 👋, ask me about specs, prices, or recommendations."
+      ]
+    },
+    {
+      "id": "who-are-you",
+      "patternsAr": ["انت مين", "مين انت", "مين حضرتك", "مين انتا"],
+      "patternsEn": ["who are you", "what are you", "who is nexon assistant"],
+      "responsesAr": [
+        "أنا Nexon Assistant 🤖، شات بوت ذكي يساعدك تختار من لابتوبات الاستيراد والمجددة عند نيكسون.",
+        "أنا مساعد نيكسون 👨‍💻، أقدر أوضح لك فرق الموديلات، المواصفات، والأسعار."
+      ],
+      "responsesEn": [
+        "I'm Nexon Assistant 🤖, a chatbot that helps you explore our imported and refurbished laptops.",
+        "I'm your Nexon helper 👨‍💻, I can explain model differences, specs, and prices."
+      ]
+    },
+    {
+      "id": "what-do-you-sell",
+      "patternsAr": ["بتبيعو ايه", "ايه اللي عندكو", "ايه المنتجات", "بتبيعوا ايه"],
+      "patternsEn": ["what do you sell", "what products", "what laptops do you have"],
+      "responsesAr": [
+        "إحنا متخصصين في لابتوبات الاستيراد والمجددة بعناية، من فئات الأعمال، الألعاب، الطلاب والعروض الاقتصادية.",
+        "عندنا لابتوبات للأعمال، الألعاب، الدراسة، والاستخدام اليومي — تقدر تطلب مني أشرح لك أي موديل بالاسم."
+      ],
+      "responsesEn": [
+        "We specialize in carefully refurbished and imported laptops for business, gaming, students, and everyday use.",
+        "We offer business, gaming, student and budget laptops — you can ask me about any model by name."
+      ]
+    },
+    {
+      "id": "list-products",
+      "patternsAr": ["ايه اللابتوبات المتاحة", "ايه اللابتوبات المتوفرة", "المتوفر عندكو", "المتاح عندكو"],
+      "patternsEn": ["available laptops", "what laptops are available", "list laptops", "show laptops"],
+      "responsesAr": [
+        "حالياً المتوفر عندنا:\n",
+        "هذه قائمة بأشهر الموديلات المتاحة حالياً:"
+      ],
+      "responsesEn": [
+        "Currently we have these laptops available:\n",
+        "Here are some of the models we offer right now:"
+      ]
+    }
+  ],
+  "fallback": {
+    "responseAr": "مش متأكد إني فهمت سؤالك تمامًا 😅، حاول تكتبه بطريقة أبسط أو اسألني عن موديل لابتوب بالاسم.",
+    "responseEn": "I'm not sure I fully understood your question 😅. Please try rephrasing or ask me about a laptop by name."
+  }
+}

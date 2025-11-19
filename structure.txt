@@ -1,0 +1,112 @@
+NEXON/
+│
+├── frontend/               # واجهة المستخدم (React + Tailwind)
+├── backend/                # خادم API (Express + Mongo)
+├── .env                    # متغيرات البيئة (API keys, DB URIs)
+├── package.json
+└── README.md
+
+frontend/
+│
+├── public/
+│   └── logo.svg            # شعار Nexon
+│
+├── src/
+│   ├── assets/             # صور وأيقونات
+│   │   ├── icons/
+│   │   └── images/
+│   │
+│   ├── components/         # مكونات قابلة لإعادة الاستخدام
+│   │   ├── layout/
+│   │   │   ├── Header.jsx          # الهيدر العام (شعار + بحث + زر نشر)
+│   │   │   ├── Sidebar.jsx         # القائمة الجانبية للأدمن والسيلر
+│   │   │   ├── Footer.jsx
+│   │   │   └── ProtectedRoute.jsx  # حماية الصفحات المقيّدة بالأدوار
+│   │   │
+│   │   ├── product/
+│   │   │   ├── ProductCard.jsx     # كارت منتج في الصفحة الرئيسية
+│   │   │   ├── ProductForm.jsx     # الفورم داخل مودال النشر
+│   │   │   ├── ProductModal.jsx    # المودال اللي بيظهر بعد “بم تفكر”
+│   │   │   └── ProductTable.jsx    # جدول المنتجات في لوحة البائع
+│   │   │
+│   │   ├── chat/
+│   │   │   ├── ChatBot.jsx         # الشات الذكي للمستخدمين
+│   │   │   └── ChatInbox.jsx       # صندوق رسائل البائع (للإستفسارات)
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── StatCard.jsx        # كارت إحصائيات صغير
+│   │   │   └── LineChart.jsx       # الرسم البياني البسيط
+│   │   │
+│   │   └── ui/                     # عناصر واجهة عامة (أزرار، مدخلات)
+│   │       ├── Button.jsx
+│   │       ├── Input.jsx
+│   │       ├── Dropdown.jsx
+│   │       └── Badge.jsx
+│   │
+│   ├── pages/              # الصفحات الرئيسية
+│   │   ├── Home.jsx                 # صفحة عرض المنتجات العامة
+│   │   ├── ProductDetails.jsx       # صفحة تفاصيل المنتج
+│   │   ├── Dashboard.jsx            # لوحة تحكم البائع / الأدمن
+│   │   ├── PostProduct.jsx          # صفحة النشر (تضم “بم تفكر؟”)
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   │
+│   ├── context/             # إدارة الحالة العامة (Auth, UserRole)
+│   │   ├── AuthContext.jsx
+│   │   └── ProductContext.jsx
+│   │
+│   ├── hooks/
+│   │   ├── useFetchProducts.js
+│   │   ├── useAuth.js
+│   │   └── useModal.js
+│   │
+│   ├── services/            # دوال استدعاء الـ API
+│   │   ├── apiClient.js             # إعداد axios baseURL + interceptors
+│   │   ├── productService.js        # كل طلبات المنتجات
+│   │   ├── authService.js           # تسجيل الدخول والتسجيل
+│   │   └── chatService.js
+│   │
+│   ├── styles/
+│   │   └── globals.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+└── vite.config.js
+
+backend/
+│
+├── src/
+│   ├── config/
+│   │   ├── db.js               # اتصال قاعدة البيانات
+│   │   └── cloudinary.js       # إعداد رفع الصور
+│   │
+│   ├── models/                 # نماذج قاعدة البيانات (Mongoose)
+│   │   ├── User.model.js
+│   │   ├── Product.model.js
+│   │   ├── Inquiry.model.js
+│   │   └── Chat.model.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js   # JWT و Role check
+│   │   └── errorHandler.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js   # تسجيل دخول / تسجيل مستخدم
+│   │   ├── productController.js# CRUD للمنتجات
+│   │   ├── chatController.js   # الرد على استفسارات المستخدمين
+│   │   └── uploadController.js # رفع الصور
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── productRoutes.js
+│   │   ├── chatRoutes.js
+│   │   └── uploadRoutes.js
+│   │
+│   ├── utils/
+│   │   ├── generateToken.js
+│   │   └── validators.js
+│   │
+│   ├── server.js              
+│   └── app.js                
+└── package.json
