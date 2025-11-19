@@ -199,15 +199,3 @@ This project is proprietary and owned by:
 
 Built with ❤️ using React, Tailwind & Context API
 Designed and implemented by **Shahd Alaa**
-
-
-# 🎉 جاهز للرفع على GitHub 100%
-
-لو عايزة:
-
-✅ Badges (React / Tailwind / Vite / RTL / Chatbot)  
-✅ نسخة README بالعربي بالكامل  
-✅ صورة Banner للريبو  
-
-قوليلي وهرفعهولِك جاهز 🖤🚀
-```
