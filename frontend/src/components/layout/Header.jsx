@@ -45,7 +45,6 @@ export default function Header() {
   const { cart, toggleCart } = useCart();
   const isRTL = dict.dir === "rtl";
 
-  // ["الرئيسية","الفئات","العروض","الدعم الفني","تواصل معنا"]
   const sectionIds = ["hero", "categories", "featured", "about", "contact"];
 
   return (
@@ -71,7 +70,7 @@ export default function Header() {
           <img
             src="/images/logo.png"
             alt={lang === "ar" ? "شعار نيكسون" : "Nexon logo"}
-            className="h-15 md:h-16 w-auto object-contain"
+            className="h-9 md:h-12 lg:h-14 w-auto object-contain"
             loading="eager"
           />
           <span className="sr-only">{dict.logo}</span>
@@ -90,7 +89,7 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Search + Icons */}
+        {/* Actions */}
         <div className="flex items-center gap-3">
           {/* Search */}
           <div className="hidden sm:flex items-center gap-2 w-[360px] max-w-[46vw]">
@@ -127,7 +126,7 @@ export default function Header() {
             </span>
           </button>
 
-          {/* Lang toggle */}
+          {/* Language toggle */}
           <button
             onClick={toggle}
             className="btn px-3 py-1.5 border rounded-md"
